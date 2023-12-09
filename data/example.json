@@ -1,0 +1,45 @@
+[
+  {
+    "_id": {
+      "$oid": "650687ece2ab6bfeda021366"
+    },
+    "birth": {
+      "$date": "1970-01-20T13:19:02.190Z"
+    },
+    "description": "",
+    "imageUrls": [],
+    "price": 1300000,
+    "sold": false,
+    "onSale": true,
+    "specie": {
+      "$oid": "650403b622d6a06af680128d"
+    },
+    "gender": "male",
+    "discount": {
+      "discountPercent": 10,
+      "startDate": {
+        "$date": "1970-01-20T14:03:40.590Z"
+      },
+      "endDate": {
+        "$date": "1970-01-20T15:44:28.590Z"
+      }
+    },
+    "achievements": [
+      {
+        "competition": "Giọng Hót Việt",
+        "rank": 2,
+        "_id": {
+          "$oid": "650687ece2ab6bfeda021367"
+        }
+      },
+      {
+        "competition": "Máy Đẻ Chim",
+        "rank": 1,
+        "_id": {
+          "$oid": "650687ece2ab6bfeda021368"
+        }
+      }
+    ],
+    "__v": 0
+  }
+]
